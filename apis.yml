@@ -1,8 +1,18 @@
 aid: comparaonline
 name: ComparaOnline
-description: 'ComparaOnline is a company surfaced as a portfolio company of ribbit-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  ComparaOnline is a Latin American digital marketplace and licensed insurance
+  broker that lets consumers compare and buy insurance and financial products in
+  one place. Operating in Chile (comparaonline.cl), Brazil (comparaonline.com.br)
+  and Colombia (comparaonline.com.co), it aggregates offers for auto insurance,
+  mandatory SOAP accident insurance, travel, life, health and pet insurance
+  alongside financial products such as mortgage, auto and consumer loans, credit
+  cards and checking accounts. Its Chilean brokerage, Compara Online Corredora de
+  Seguros SpA, is supervised by the Comision para el Mercado Financiero (CMF), and
+  the company earns revenue as a broker collecting premiums and by referring users
+  to partner banks and insurers. ComparaOnline is a fintech/insurtech portfolio
+  company of Ribbit Capital. No public developer API or specification is currently
+  published; this profile captures the company's public identity and web surface.
 url: https://raw.githubusercontent.com/api-evangelist/comparaonline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://res.cloudinary.com/compara/image/upload/v1705589391/assets/logos/logo_2024.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Insurance
+- Insurtech
+- Comparison Marketplace
+- Insurance Broker
+- Financial Services
+- Latin America
+- Chile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.comparaonline.com
+- type: About
+  url: https://www.comparaonline.cl/quienes-somos
+- type: Blog
+  url: https://www.comparaonline.cl/blog
+- type: Support
+  url: https://helpcentercl.comparaonline.com/hc/es-419
+- type: HelpCenter
+  url: https://helpcentercl.comparaonline.com/hc/es-419
+- type: Careers
+  url: https://www.comparaonline.cl/trabaja-con-nosotros
+- type: TermsOfService
+  url: https://helpcentercl.comparaonline.com/hc/es-419/articles/360016301291
+- type: GitHubOrganization
+  url: https://github.com/comparaonline
+- type: DomainSecurity
+  url: security/comparaonline-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
